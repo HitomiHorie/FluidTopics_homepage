@@ -33,7 +33,7 @@ function initSearch() {
 }
 
 function getFTSearchUrl(searchTerm, language = null, filters = null) {
-    let FTPortalHost = "https://myTenant.fluidtopics.net";
+    let FTPortalHost = "https://your.fluidtopics.net/ixia-japan";
     let route = 'search/all?';
     let queryParams = ['query=' + searchTerm];
     return FTPortalHost + '/' + route + queryParams.join('&');
